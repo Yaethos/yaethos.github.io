@@ -3,6 +3,9 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+# Version number
+build: 20260131
+
 plugins:
   - jekyll-cache-bust
 
