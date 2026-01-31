@@ -1,18 +1,6 @@
 @mixin styles {
   color-scheme: dark;
 
-  --bg-color-005: hsl(var(--base-hue) var(--base-saturation) 5);
-  --bg-color-010: hsl(var(--base-hue) var(--base-saturation) 10);
-  --bg-color-015: hsl(var(--base-hue) var(--base-saturation) 15);
-  --bg-color-020: hsl(var(--base-hue) var(--base-saturation) 20);
-  --bg-color-030: hsl(var(--base-hue) var(--base-saturation) 30);
-  --bg-color-050: hsl(var(--base-hue) var(--base-saturation) 50);
-
-  --text-color-100: hsl(var(--base-hue) var(--base-saturation) 100);
-  --text-color-080: hsl(var(--base-hue) var(--base-saturation) 80);
-  --text-color-075: hsl(var(--base-hue) var(--base-saturation) 75);
-  --text-color-050: hsl(var(--base-hue) var(--base-saturation) 50);
-
   /* Framework color */
   --main-bg: rgb(27 27 30);
   --mask-bg: rgb(68 69 70);
@@ -79,8 +67,8 @@
   --btn-share-hover-color: #bfc1ca;
   --card-bg: #1e1e1e;
   --card-hover-bg: #464d51;
-  --card-shadow:
-    rgb(21 21 21 / 72%) 0 6px 18px 0, rgb(137 135 135 / 24%) 0 0 0 1px;
+  --card-shadow: rgb(21 21 21 / 72%) 0 6px 18px 0,
+    rgb(137 135 135 / 24%) 0 0 0 1px;
   --kbd-wrap-color: #6a6a6a;
   --kbd-text-color: #d3d3d3;
   --kbd-bg-color: #242424;
