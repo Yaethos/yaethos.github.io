@@ -34,14 +34,8 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-<<<<<<< Updated upstream
-  name: your_full_name
-  email: example@domain.com # change to your email address
-  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
-=======
   name: Vito Piccione
   email: v.piccione2001@gmail.com # change to your email address
->>>>>>> Stashed changes
   links:
     # The first element serves as the copyright owner's link
     - https://www.linkedin.com/in/vito-piccione-2ba731288/
