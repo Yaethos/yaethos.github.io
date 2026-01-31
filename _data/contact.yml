@@ -11,7 +11,9 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-
+- type: instagram
+  icon: "fa-brands fa-instagram"
+  url: "https://www.instagram.com/vito.piccio/"
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
