@@ -9,3 +9,42 @@
 ';
 
 /* append your custom style below */
+
+@use 'light_colors';
+@use 'dark_colors';
+
+:root {
+  /*
+    Set the base hue and saturation for creating style colors. The variables
+    are used in assets/css/light_colors.scss and assets/css/dark_colors.scss.
+  */
+  --base-hue: 40; // 0 to 360
+  --base-saturation: 25; // 0 to 100
+  --secondary-hue: 190;
+  --secondary-saturation: 75;
+
+  /*
+    Set up support for light mode and dark mode.
+  */
+  @media (prefers-color-scheme: light) {
+    &:not([data-mode]),
+    &[data-mode='light'] {
+      @include light_colors.styles;
+    }
+
+    &[data-mode='dark'] {
+      @include dark_colors.styles;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:not([data-mode]),
+    &[data-mode='dark'] {
+      @include dark_colors.styles;
+    }
+
+    &[data-mode='light'] {
+      @include light_colors.styles;
+    }
+  }
+}
