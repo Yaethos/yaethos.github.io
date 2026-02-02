@@ -420,7 +420,7 @@ P value adjustment: fdr method for 9 tests
 Sorry if the analysis section is still a bit unclear and probably not entirely correct. I’d be very happy to hear suggestions on how to improve or fix it.
 
 I have a few questions:
-- By including (1 | V1) in the model, I’m technically adding participants as a factor. Since this is a repeated-measures design, where each participant appears multiple times, is this an appropriate way to model it?
+- By including (1 \| V1) in the model, I’m technically adding participants as a factor. Since this is a repeated-measures design, where each participant appears multiple times, is this an appropriate way to model it?
 - Manu and I discussed the possibility of applying a log transformation to the data, especially to the SD measures. I haven’t applied it yet, but I have the feeling that it might be necessary, so I’ll try that next.
 - More generally: these data **should** be normally distributed, right?
 I feel that once I get a clear overall picture of how to handle the data, the rest of the experiments should be fairly easy to analyze. Exp 2 Basic is essentially the same analysis, with the added aspect of monitoring the delay. Exp 1 / Exp 2 Dance should be mostly fine as long as participants stuck to an isochronous pulse. The GRID analysis should be easier, since I already have the time series. The RAW analysis will be more troublesome because participants were not aiming for a stable BPM. In that case, would it make sense to focus only on accuracy for the dance conditions?
