@@ -446,7 +446,7 @@ Some other trials are curiously offset to the upbeat (this happened at least twi
 And some other discarded trials come from those "weird" marks in the Halling stimuli.
 When a clap is discarded it won't be considered for the analyses, so I think there is a very strong survivor effect here that was not present in the Basic analyses. <br>
 A lot of claps were accepted after editing the "window" in such a way that it was not a fixed value anymore, but an adaptable one. Instead of a fixed +/-180ms window, I inserted a window that spans +/- 0.36*(difference between this onset in the stimulus and the next). The 0.36 comes from 180(windows in the basic trials)/500(stimulus IOI of basic trials). The plots you're seeing are already window-corrected. <br>
-The analyses you're seeing still have not been manually corrected, therefore real results might be slightly different, since some false positives need to be removed and some false negatives need to be added.
+The analyses you're seeing have not been manually corrected yed, therefore real results might be slightly different, since some false positives need to be removed and some false negatives need to be added.
 
 
 ## Statistical Analysis Basic 2
