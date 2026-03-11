@@ -129,7 +129,7 @@ I defined a 360ms window around each stimulus' onset (+180ms, -180ms, stimulus' 
 
 
 
-## Statistical Analysis
+## Statistical Analysis Basic 1
 
 ### RAW Analysis
 
@@ -415,8 +415,61 @@ Degrees-of-freedom method: kenward-roger
 P value adjustment: fdr method for 9 tests 
 ```
 
+## Statistical Analysis Dance 1
+For Dance 1, only GRID analysis (or accuracy analysis) will be carried out. Since the stimuli do not have a stable BPM, we cannot assume that lower SD equals more precise synchronization.
 
-## Considerations
+![Desktop View](/assets/img/Djembe/GRID_Dance_modality.png){: width="700" height="400" } <br>
+
+
+```plaintext
+> contrast estimate   SE  df t.ratio p.value
+ A - AV     -0.954 2.49 760  -0.383  1.0000
+ A - V      -4.673 2.49 760  -1.874  0.1841
+ AV - V     -3.719 2.49 760  -1.491  0.4091
+```
+
+From these results, it might seem clear that modality had no effect on the synchronization, and this is what will probably be written on the thesis for now. However, take a look at some of the trials. Keep in mind that the blue lines represent the timeseries used, since I could not plot the actual stimulus audio channel:
+![Desktop View](/assets/img/Djembe/A_Dancer1_Halling_Plot.jpg){: width="700" height="400" } <br>
+![Desktop View](/assets/img/Djembe/A_Dancer2_Halling_Plot.jpg){: width="700" height="400" } <br>
+![Desktop View](/assets/img/Djembe/AV_Dancer1_Halling_Plot.jpg){: width="700" height="400" } <br>
+![Desktop View](/assets/img/Djembe/AV_Dancer2_Halling_Plot.jpg){: width="700" height="400" } <br>
+![Desktop View](/assets/img/Djembe/V_Dancer1_Halling_Plot.jpg){: width="700" height="400" } <br>
+![Desktop View](/assets/img/Djembe/V_Dancer2_Halling_Plot.jpg){: width="700" height="400" } <br>
+
+Regarding the Halling, I got the sense that the timeseries derived from the mean of experts' marking might have some sub-optimal markers. This is all from the same participants, but it's pretty common in many trials (even the "good" ones) to see that pattern of 5-6 correct claps and then a couple discarded ones. <br>
+This leads me to another point, the discarded claps. For the basic movements there were not a lot of discarded responses, but here there are way more. Some trials are just way off:
+![Desktop View](/assets/img/Djembe/AV_Mali_Suku_Plot.jpg){: width="700" height="400" } <br>
+
+Some other trials are curiously offset (this happened at least twice, both times in the Suku trial):
+![Desktop View](/assets/img/Djembe/Upbeat_AV_Suku.jpg){: width="700" height="400" } <br>
+
+And some other discarded trials come from those "weird" marks in the Halling stimuli.
+When a clap is discarded it won't be considered for the analyses, so I think there is a very strong survivor effect here that was not present in the Basic analyses. <br>
+A lot of claps were accepted after editing the "window" in such a way that it was not a fixed value anymore, but an adaptable one. Instead of a fixed +/-180ms window, I inserted a window that spans +/- 0.36*(difference between this onset in the stimulus and the next). The 0.36 comes from 180(windows in the basic trials)/500(stimulus IOI of basic trials). The plots you're seeing are already window-corrected. <br>
+The analyses you're seeing still have not been manually corrected, therefore real results might be slightly different, since some false positives need to be removed and some false negatives need to be added.
+
+
+## Statistical Analysis Basic 2
+For Basic 2 only ~60% of data have been analyzed. I'm locked out of the Felles Drive and I'm still waiting for Kayla and Eirik. Manual correction has already been done.
+![Desktop View](/assets/img/Djembe/Async_Delays.png){: width="700" height="400" } <br>
+```plaintext
+ contrast  estimate   SE  df t.ratio p.value
+ p80 - p40     4.18 1.96 588   2.138  0.2055
+ p80 - 0       8.87 1.91 641   4.651 <0.0001
+ p80 - m40    12.53 1.96 588   6.409 <0.0001
+ p80 - m80    18.32 1.96 588   9.369 <0.0001
+ p40 - 0       4.69 1.91 641   2.459  0.1015
+ p40 - m40     8.35 1.96 588   4.271  0.0002
+ p40 - m80    14.14 1.96 588   7.231 <0.0001
+ 0 - m40       3.66 1.91 641   1.920  0.3076
+ 0 - m80       9.45 1.91 641   4.956 <0.0001
+ m40 - m80     5.79 1.96 588   2.960  0.0264
+```
+
+I think this is particularly interesting. "0" are results from experiment 1, AV condition, so that we can have a baseline. <br>
+I've edited everything so that the delay values should refer to the video, this means that "m40" means that video was early by 40ms and "p40" means that video was late by 40ms. An async value of 0 means that the participant was absolutely aligned with the audio channel.
+
+## Considerations (old)
 Sorry if the analysis section is still a bit unclear and probably not entirely correct. I’d be very happy to hear suggestions on how to improve or fix it.
 
 I have a few questions:
