@@ -416,7 +416,7 @@ P value adjustment: fdr method for 9 tests
 ```
 
 ## Statistical Analysis Dance 1
-For Dance 1, only GRID analysis (or accuracy analysis) will be carried out. Since the stimuli do not have a stable BPM, we cannot assume that lower SD equals more precise synchronization.
+For Dance 1, only GRID analysis (or accuracy analysis) will be carried out. Since the stimuli do not have a stable BPM, we cannot assume that lower SD equals more precise synchronization, so I'm suspending RAW (or stability) analyses.
 
 ![Desktop View](/assets/img/Djembe/GRID_Dance_modality.png){: width="700" height="400" } <br>
 
@@ -440,7 +440,7 @@ Regarding the Halling, I got the sense that the timeseries derived from the mean
 This leads me to another point, the discarded claps. For the basic movements there were not a lot of discarded responses, but here there are way more. Some trials are just way off:
 ![Desktop View](/assets/img/Djembe/AV_Mali_Suku_Plot.jpg){: width="700" height="400" } <br>
 
-Some other trials are curiously offset (this happened at least twice, both times in the Suku trial):
+Some other trials are curiously offset to the upbeat (this happened at least twice, both times in the Suku trial):
 ![Desktop View](/assets/img/Djembe/Upbeat_AV_Suku.jpg){: width="700" height="400" } <br>
 
 And some other discarded trials come from those "weird" marks in the Halling stimuli.
