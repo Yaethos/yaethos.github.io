@@ -49,3 +49,10 @@ Here's a layer deeper:
 ![Desktop View](/assets/img/Djembe/Exp1Dance/SDxModalityxNorway.png)
 <br>
 
+## Median Comparison
+I'm not 100% sure about the process but I don't see many complex steps in what I've done. I'll re-check tomorrow, but for now this should be enough to confirm your hypothesis:
+
+![Desktop View](/assets/img/Djembe/Exp1Dance/Median_Comparison.png)
+<br>
+
+IOIs for participants have been calculated using the GRID dataset, so only "accepted" claps have been used to calculate median IOI. These are the same data entries that are being used to calculate asynchrony and, later, SD of these asynchronies.
