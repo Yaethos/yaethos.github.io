@@ -32,7 +32,7 @@ While Norway looks okay, we can see there's something more to the Mali results. 
 
 We can see that the bimodality shown in the Malian results (and also seen in part in the thesis) is due to this dissociation given by the modality. 
 
-Let's move now to the complementary analysis but seen from the modality perspective (SD x Modality).
+Let's move now to the complementary analysis seen from the modality perspective (SD x Modality).
 This is the plot present in the thesis:
 ![Desktop View](/assets/img/Djembe/Exp1Dance/SD_Modality.png)
 <br>
@@ -48,3 +48,4 @@ Here's a layer deeper:
 
 ![Desktop View](/assets/img/Djembe/Exp1Dance/SDxModalityxNorway.png)
 <br>
+
