@@ -6,7 +6,9 @@ tags: []     # TAG names should always be lowercase
 ---
 # Introduzione
 Buonasera e benvenuti alla guida su come utilizzare al meglio il foglio Pre-Iscrizioni. Per quanto possa sembrare complicato in realtà è attualmente semplice da usare, con un controllo principale svolto da me e delle sezioni dedicate per gli insegnanti che possono essere gestite liberamente. 
+
 Prima di continuare è utile una distinzione di terminologia: con il termine *Pre-Iscritto* intendiamo una persona che ha compilato il form. Con una persona in *Waiting List* intendiamo qualcuno che ha compilato il form, ha ricevuto le informazioni necessarie dalla segreteria, è pronto/a ad iscriversi ma non può attualmente farlo per motivi esterni al suo controllo (es. lab pieni, quadrimestre in corso o finito...). 
+
 Questa distinzione è cruciale per evitare che la Waiting List venga riempita da persone che non rispondono o spariscono. La Waiting List vuole quindi essere una lista di persone già informate che aspettano solo che si liberi un posto.
 
 # Struttura File
@@ -54,6 +56,7 @@ Se volete aggiungere pre-iscritti alla Waiting List del vostro Lab basta aggiung
 
 ## Terza Sezione (Insegnanti)
 Anche in questo caso, a prima vista queste sezioni sono quasi del tutto simili al foglio risposte. Questo perchè, ancora una volta, è necessario attivare la *Vista Filtro*. Ogni sezione insegnante ha attualmente una Vista Filtro sola, e attivarla ci porta ad avere la lista di persone che hanno l'insegnante che dà il nome alla sezione come Contatto di Riferimento.
+
 È bene tenere a mente che queste sezioni sono collegate unidirezionalmente con il foglio risposte. Qualsiasi modifica nel foglio rispsote sarà rispecchiata in questi fogli (se ad esempio nel foglio risposte viene aggiunto cambiato il contatto di riferimento di un pre-iscritto, questo verrà cambiato anche in tutti i fogli specifici degli insegnanti). Tuttavia, qualsiasi cambiamento effettuato dentro il foglio insegnanti non verrà riportato nel foglio risposte. 
 Inoltre, una volta che una cella viene modificata, viene disconnessa dal foglio risposte e non verrà più aggiornata con esso. Ci sono pochi casi in cui serve sapere ciò, quindi intanto lo dico poi se ci dovessero essere problemi potete scrivermi direttamente.
 
