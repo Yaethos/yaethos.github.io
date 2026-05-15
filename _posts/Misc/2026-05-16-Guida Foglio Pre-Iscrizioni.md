@@ -66,4 +66,16 @@ I fogli insegnanti hanno anche la stessa sfilza di colonne "storico" che ci sono
 
 ## Varie ed eventuali
 La *Vista Filtro* deve essere reinserita ogni volta che si apre il foglio, ed è possibile che ogni sia necessario aggiornare la pagina affinché modifiche recenti siano registrate dal vostro browser.
+
 Sto anche combattendo con qualcosa che non capisco bene se sia un bug o un errore mio, per il quale le nuove pre-iscrizioni non compaiono nei fogli dedicati e nel foglio WL. Se questo dovesse succedere fatemi sapere.
+
+Ben poco di quanto descritto finora è la versione migliore possibile del file. Se avete proposte, o se trovate qualcosa particolarmente macchinoso, sentitevi liberi di scrivermi anche solo per dirmi che vi trovate male con qualcosa. Se riuscite anche a dirmi come vorreste che funzionasse (senza scendere in dettagli tecnici, solo l'idea va benissimo) sarebbe utile.
+
+# Workflow previsto
+La segreteria riceve la pre-iscrizione nuova e contatta al più presto la persona che ha compilato. In questo primo scambio fornisce informazioni in merito ai costi, alle date e al programma, oltre che rispondere ad eventuali domande. Se la persona conferma l'interesse a partecipare, la segreteria inserisce quella persona nella Waiting List del Lab in questione.
+
+Gli insegnanti controllano la Waiting List dei propri laboratori e contattano le persone lì presenti per formare i gruppi dei lab. Questo controllo deve essere fatto abbastanza regolarmente nei periodi di preparazione di un nuovo quadrimestre.
+
+Ogni insegnante è chiaramente libero di contattare persone che non hanno mostrato interesse per il proprio Lab. Per tenere traccia delle risposte chiederei, in questo caso, di aggiungersi come contatto di riferimento nel foglio risposte. Questo fa sì che quel pre-iscritto compaia anche nel foglio personale, dando così la possibilità di segnare il tipo di risposta ricevuta.
+
+È possibile che la segreteria non sia sicura se posizionare qualcuno nel grado 1 o 2  (o 3) di un lab. In questo caso, il dubbio sarà esplicitato tramite un commento presente nel foglio personale dell'insegnante coinvolto, rimettendo a lui la scelta. La scelta dovrà essere inserita nel foglio risposte, in corrispondenza della voce "WL".
