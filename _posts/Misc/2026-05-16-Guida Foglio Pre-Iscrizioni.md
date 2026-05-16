@@ -28,12 +28,12 @@ La sezione azzurra contiene un foglio per ogni insegnante e, infine, la sezione 
 La tabella viola è la tabella a cui vengono aggiunte le risposte dei questionari, e possiamo infatti vedere tutti i campi presenti anche nel form di preiscrizione. La tabella verde invece è una prima rielaborazione dei dati. In questa tabella vengono (i) tolti alcuni dati di bassa rilevanza e (ii) iniziano a venire aggiunte informazioni di interesse gestionale.
 Ad oggi, le informazioni che vengono aggiunte sono:
 - Una colonna *Stato*. I possibili stati sono molteplici e si riferiscono allo stato della persona. Alcuni esempi sono:
-    - "_Da Sentire_": significa che la pre-iscrizione deve ancora essere _verificata_ dalla segreteria
+    - "_Da Sentire_": significa che la pre-iscrizione deve ancora essere _verificata_ dalla segreteria. Queste persone cadono ancora sotto la giurisdizione della segreteria e le comunicazioni (inizio nuovo quad, lab spot) spettano ad essa.
     - "_Iscritto_": significa che la persona risulta già partecipante ad un lab.
-    - "_Iscritto e in WL per altro_": significa che la persona risulta iscritta ad un lab ma è interessata ad un altro
-    - "_Rifiutato_": significa che la persona ha rifiutato per più volte proposte (o non ha risposto). Una persona con questo stato non viene più contattata.
-    - "_Smistato_": significa che la persona è stata inviata ad uno degli insegnanti con l'obiettivo di finalizzare l'iscrizione
-    - "In WL": significa che la persona è volenterosa di iscriversi ma non può farlo per motivi esterni
+    - "_Iscritto e in WL per altro_": significa che la persona risulta iscritta ad un lab ma è interessata ad un altro.
+    - "_Rifiutato_": significa che la persona ha rifiutato per più di tre volte le proposte (o non ha risposto). Inoltre, la persona non ha giustificato i rifiuti o mostrato interesse per comunicazioni future. Una persona con questo stato non viene più contattata.
+    - "_Smistato_": significa che la persona è stata inviata ad uno degli insegnanti con l'obiettivo di finalizzare l'iscrizione. Potrebbe essere superfluo dato che il passaggio in realtà avviene tramite la WL.
+    - "In WL": significa che la persona è volenterosa di iscriversi ma non può farlo per motivi esterni.
 - Una colonna *WL*. Questa colonna contiene i laboratori per cui la persona è in Waiting List. Questo vuol dire che, in realtà, esiste una sotto-Waiting List per ogni laboratorio, e lo vedremo in seguito.
 - Una colonna *Contatto di Riferimento*. Questa colonna contiene il nome degli insegnanti a cui è stato affidato il pre-iscritto. La selezione dell'insegnante è influenzata principalmente dal lab di interesse del preiscritto.
 - Una serie di colonne, una per ogni quadrimestre/lab spot. Queste colonne servono per tenere traccia dello storico delle risposte di ogni pre-iscritto. Attraverso queste colonne è possibile ricordare a quali lab spot qualcuno ha partecipato, e come ha risposto ai tentativi di contatto.
