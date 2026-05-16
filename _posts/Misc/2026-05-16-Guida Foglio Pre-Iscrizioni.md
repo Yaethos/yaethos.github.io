@@ -65,7 +65,7 @@ Se volete aggiungere pre-iscritti alla vostra Vista Filtro basta aggiungere il v
 I fogli insegnanti hanno anche la stessa sfilza di colonne "storico" che ci sono nel foglio risposte. In passato si aveva una lista di simboli e codici per indicare diversi tipi di risposta del pre-iscritto, ma ora con i fogli dedicati potete gestirvela un po' come volete. Sarà compito mio riportare lo storico sul foglio risposte, in modo che ci sia una versione ufficiale e completa. Per questo vi chiedo di fare in modo di avere un sistema quantomeno consistente.
 
 ## Varie ed eventuali
-La *Vista Filtro* deve essere reinserita ogni volta che si apre il foglio, ed è possibile che ogni sia necessario aggiornare la pagina affinché modifiche recenti siano registrate dal vostro browser.
+La *Vista Filtro* deve essere reinserita ogni volta che si apre il foglio, ed è possibile che ogni tanto sia necessario aggiornare la pagina affinché modifiche recenti siano registrate dal vostro browser.
 
 Sto anche combattendo con qualcosa che non capisco bene se sia un bug o un errore mio, per il quale le nuove pre-iscrizioni non compaiono nei fogli dedicati e nel foglio WL. Se questo dovesse succedere fatemi sapere.
 
